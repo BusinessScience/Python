@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# VSCode (jeśli używasz czasami)
+.vscode/
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs
+*.log
+
+# mypy / pytype / pylint
+.mypy_cache/
+.pytype/
+.pylint.d/
+
+# pytest
+.pytest_cache/
+
+# Docker
+*.pid
+
+# Systemowe
+.DS_Store
+Thumbs.db
