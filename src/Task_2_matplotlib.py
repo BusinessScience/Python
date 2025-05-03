@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import pylab as p
 
 x = [1,2,3]
 y = [4,5,6]
