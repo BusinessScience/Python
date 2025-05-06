@@ -3,6 +3,9 @@ class Person:
         self.name = name
         self.age = age
 
+    def __repr__(self):
+        return f'Person(name={self.name}, age={self.age})'
+
 person = Person('Jan', 20)
 person2 = Person('Tom', 22)
 person3 = Person('Kate', 23)
@@ -20,3 +23,5 @@ people = [person, person2, person3]
 for person in people:
     if person.age > 20:
         print(person.name)
+
+print(person)
